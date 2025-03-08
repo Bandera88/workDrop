@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@1,200..800&display=swap");
+.header__container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 1248px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 35px 323px 0;
+  z-index: 7777;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #F0B90B;
+  font-size: 33px;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.item__link {
+  text-decoration: none;
+  color: #FFF8E4;
+}
+
+.item__link:hover {
+  color: #F0B90B;
+}
+
+.btn-start {
+  width: 130px;
+  height: 40px;
+  background-color: rgba(39, 44, 52, 0.7);
+  color: #FFF8E4;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.btn-start:hover {
+  width: 130px;
+  height: 40px;
+  background-color: rgb(240, 185, 11);
+  color: #000000;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.hero__container {
+  padding-top: 90px;
+  width: 1248px;
+  margin-left: 323px;
+  position: relative;
+}
+
+.hero-shadowText {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 55px;
+  text-align: center;
+  font-optical-sizing: auto;
+  color: rgba(255, 248, 228, 0.05);
+  z-index: 0;
+}
+
+.baloon {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+}
+
+.baloon__blue {
+  background-color: rgba(47, 80, 245, 0.5);
+  top: 1px;
+  filter: blur(150px);
+  z-index: -1;
+}
+
+.baloon__pink {
+  background-color: rgba(142, 7, 176, 0.5);
+  top: 70px;
+  right: 300px;
+  filter: blur(150px);
+  z-index: -1;
+}
+
+.baloon__yellow {
+  background-color: rgba(248, 192, 20, 0.5);
+  top: 450px;
+  right: -300px;
+  filter: blur(200px);
+  z-index: -1;
+}
+
+.bigWord {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-transform: uppercase;
+  height: 200px;
+}
+
+.airdrop {
+  background: linear-gradient(90deg, #F0B90B 0%, #FFE696 100%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 200px;
+  font-weight: bold;
+}
+
+.word {
+  font-size: 200px;
+  font-weight: bold;
+  align-self: flex-end;
+  background: linear-gradient(90deg, #F0B90B 0%, #FFE696 100%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.txtblur {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: rgba(255, 248, 228, 0.4);
+  font-size: 25px;
+}
+
+body {
+  background-color: #181A20;
+}
+
+/*# sourceMappingURL=Index.css.map */

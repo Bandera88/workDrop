@@ -1,0 +1,65 @@
+@use "common/variables";
+
+.header {
+  &__container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 1248px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 323px 0 ;
+    z-index: 7777;
+  }
+}
+
+h1 {
+  font-family: variables.$montserrat;
+  color: #F0B90B;
+  font-size: 33px;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+  font-family: variables.$montserrat;
+  font-size: 20px;
+
+}
+
+.item__link {
+  text-decoration: none;
+  color: #FFF8E4;
+}
+.item__link:hover{
+  color: #F0B90B;
+}
+
+.btn-start {
+  width: 130px;
+  height: 40px;
+  background-color:rgba(39, 44, 52, 0.7) ;
+  color: #FFF8E4;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  border: none;
+  font-family: variables.$montserrat;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.btn-start:hover {
+  width: 130px;
+  height: 40px;
+  background-color:rgb(240, 185, 11, ) ;
+  color: #000000;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  border: none;
+  font-family: variables.$montserrat;
+  font-weight: 400;
+  font-size: 16px;
+}
